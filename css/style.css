@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: rgb(49, 2, 43);
+  grid-area: head;
+  font-family: "Bungee Inline", cursive;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+
+aside {
+  font-family: "Bungee Inline", cursive;
+  font-size: 23px;
+  background-color: rgb(233, 192, 224);
+  grid-area: sidebar;
+  text-align: center;
+}
+
+aside figure {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+  margin: 30px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+main {
+  background-color: rgb(252, 248, 249);
+  grid-area: content;
+}
+
+footer {
+  background-color: rgb(49, 2, 43);
+  grid-area: foot;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.grid-2 {
+  display: grid;
+  height: 100vh;
+  grid-template:
+    "head head" 85px
+    "sidebar content" 1fr
+    "foot foot" 48px
+    / minmax(280px, 300px);
+  gap: 1px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.divs,
+.divs2 {
+  margin: 20px;
+  display: flex;
+  background-size: cover;
+  border: 3px groove rgb(253, 234, 126);
+  box-shadow: 3px 3px 5px rgb(70, 75, 31);
+  border-radius: 10px;
+  background-position: center;
+  width: 250px;
+  height: 260px;
+}
+
+.divs2 {
+  border-radius: 100%;
+}
+
+.sertanejo2021 {
+  background-image: url(../img/sertanejo.jfif);
+}
+
+.rock2021 {
+  background-image: url(../img/rock.jfif);
+}
+
+.pagode2021 {
+  background-image: url(../img/pagode.jfif);
+}
+
+.funk2021 {
+  background-image: url(../img/funk.jfif);
+}
+
+.axe2021 {
+  background-image: url(../img/axe.jpg);
+}
+
+.classico2021 {
+  background-image: url(../img/classica.jfif);
+}
+
+.hiit {
+  background-image: url(../img/hit.jfif);
+}
+
+.topsertanejo {
+  background-image: url(../img/topsert.jpg);
+}
+
+.gospel {
+  background-image: url(../img/deus.jpg);
+}
+
+.rdpagode {
+  background-image: url(../img/rdpagode.jpg);
+}
+
+.thalles {
+  background-image: url(../img/thales.jpg);
+}
+
+.jquest {
+  background-image: url(../img/jquest.jpg);
+}
+
+.furacao {
+  background-image: url(../img/furacao.jpg);
+}
+
+.heart {
+  color: red;
+}
